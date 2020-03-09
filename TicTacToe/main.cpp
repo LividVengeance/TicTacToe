@@ -40,11 +40,11 @@ void playMenu()
 	}
 	else if (Option == 3)
 	{
-		system("exit");
+		
 	}
 	else if (Option == 4)
 	{
-		
+		system("exit");
 	}
 	else
 	{
@@ -67,9 +67,7 @@ void mainMenu()
 	cout << "	`- | . ,-. `- | ,-. ,-. `- | ,-. ,-. " << endl;
 	cout << "	 , | | |    , | ,-| |    , | | | |-' " << endl;
 	cout << "	 `-' ' `-'  `-' `-^ `-'  `-' `-' `-' " << endl;
-	cout << endl;
-
-	cout << endl;
+	cout << endl << endl;
 	cout << "		1. Play" << endl;
 	cout << endl;
 	cout << "		2. Quit" << endl;
@@ -101,6 +99,5 @@ void mainMenu()
 int main()
 {
 	mainMenu();
-
 	return(0);
 }
